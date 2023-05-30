@@ -24,14 +24,17 @@ h1 {
 }
 
 h2 {
-   color: #9cc1f8;
-   font-weight: 100;
+    color: #9cc1f8;
+    font-weight: 100;
 }
 
-p::first-letter {
+.sub-title {
+    transform: rotateX(180deg);
+}
+
+.sub-title::first-letter {
     font-size: 1.5em;
 }
-
 
 .main-title {
     color: #9cc1f8;
@@ -52,11 +55,23 @@ p::first-letter {
     margin: 0;
 }
 
-.mood-text::first-letter {
-    float: none;
-    font-size: 1em;
-}
-
 .valid-img {
     width: 60px;
+}
+
+.movie-column {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.movie-column li dl {
+    margin: 0;
+}
+
+.movie-column li dl dt {
+    color: #ffffbd;
+}
+
+.movie-column li dl dd span a {
+    color: #d35d5b;
 }
