@@ -1,0 +1,42 @@
+body {
+    background-color: #585648;
+    color: white;
+    font-family: Arial;
+}
+
+img {
+    width: 300px;
+}
+
+
+span {
+    color: #ffffbd;
+}
+
+a {
+    color: #d35d5b;
+}
+
+.main-title {
+    color: #9cc1f8;
+    font-size: 50px;
+}
+
+.sub-title {
+    color: #9cc1f8;
+    font-size: 25px;
+}
+
+.fun-fact-span {
+    font-style: italic;
+    color: white;
+}
+
+.moods {
+    display: flex;
+    align-items: end;
+}
+
+.mood-text {
+    margin: 0;
+}
