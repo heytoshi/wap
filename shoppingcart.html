@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/shoppingcart.css">
+
+    <title>Shopping cart</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="logo-image" src="assets/logo.png" alt="Logo">
+        </div>
+        <h1 class="main-title">Welcome, Toshi</h1>
+        <button class="logout-button">Logout</button>
+    </header>
+    <div class="table-parent-container">
+        <div class="product">
+            <h1>Product List</h1>
+            <table class="table-container">
+                <tr>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Stock</td>
+                    <td>Actions</td>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>8</td>
+                    <td><img class="shopping-cart-image" src="assets/shopping-cart.png" alt="cart"></td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>19.99</td>
+                    <td>5</td>
+                    <td><img class="shopping-cart-image" src="assets/shopping-cart.png" alt="cart"></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>13</td>
+                    <td><img class="shopping-cart-image" src="assets/shopping-cart.png" alt="cart"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="cart">
+            <h1>Your Shopping Cart</h1>
+            <table class="table-container">
+                <tr>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Total</td>
+                    <td>Quantity</td>
+                </tr>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>9.99</td>
+                    <td>
+                        <button class="decrement-button">-</button>
+                        <input class="input-shop" type="number" min="0" max="10" value="1">
+                        <button class="increment-button">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>290.99</td>
+                    <td>
+                        <button class="decrement-button">-</button>
+                        <input class="input-shop" type="number" min="0" max="10" value="10">
+                        <button class="increment-button">+</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="total">Total: 300.98</td>
+                </tr>
+            </table>
+            <button class="order-button">Place Order</button>
+
+        </div>
+    </div>
+    <div class="valid-buttons">
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fheytoshi.github.io%2Fwap%2Fshoppingcart.html">
+            <img class="valid-img" src="./assets/HTML-checker.png" alt="html validator"> </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?lang=en&amp;profile=css3svg&amp;uri=https%3A%2F%2Fheytoshi.github.io%2Fwap%2Fshoppingcart.html&amp;usermedium=all&amp;vextwarning=&amp;warning=1">
+            <img class="valid-img" src="./assets/CSS-checker.png" alt="css validator"> </a>
+    </div>
+</body>
+
+</html>
