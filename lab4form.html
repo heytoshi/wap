@@ -10,113 +10,115 @@
 </head>
 
 <body>
-    <header>
-        <h3>Workshop Registration</h3>
-        <p>More Actions</p>
-        <div class="arrow-down"></div>
-    </header>
-    <p class="sub-title-top">Register now while seats are available!</p>
-    <form>
-        <div class="form-main">
-            <div class="form-column-1">
-                <div class="form-group">
-                    <label for="first-name">First Name <span>*</span></label>
-                    <input type="text" id="first-name" name="first-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="last-name">Last Name <span>*</span></label>
-                    <input type="text" id="last-name" name="last-name" required>
-                </div>
-                <div class="form-group">
-                    <label for="company">Company/Institution <span>*</span></label>
-                    <input type="text" id="company" name="company">
-                </div>
-                <div class="form-group">
-                    <label for="address">Address <span>*</span></label>
-                    <textarea id="address" name="address" rows="5" required></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="city">City</label>
-                    <input type="text" id="city" name="city">
-                </div>
-                <div class="form-group">
-                    <label for="state">State/Province/Region</label>
-                    <select id="state" name="state">
-                        <option value="" selected disabled>-Select-</option>
-                        <option value="state1">State 1</option>
-                        <option value="state2">State 2</option>
-                        <option value="state3">State 3</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="country">Country</label>
-                    <select id="country" name="country">
-                        <option value="" selected disabled>-Select-</option>
-                        <option value="country1">Country 1</option>
-                        <option value="country2">Country 2</option>
-                        <option value="country3">Country 3</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email <span>*</span></label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone Number <span>*</span></label>
-                    <input type="tel" id="phone" name="phone" required>
-                </div>
-            </div>
-            <div class="form-column-2">
-                <div class="sub-title-form1">
-                    <p>Lunch</p>
-                </div>
-                <div class="form-group second-column">
-                    <label for="meal-preference">Meal Preference</label>
-                    <select id="meal-preference" name="meal-preference">
-                        <option value="Vegetarian" selected>Vegetarian</option>
-                        <option value="Seafood">Seafood</option>
-                        <option value="Meat">Meat</option>
-                    </select>
-                </div>
-                <div class="sub-title-form2">
-                    <p>Payment Details</p>
-                </div>
-                <div class="form-group">
-                    <label for="cash">Payment Mode</label>
-                    <div class="checkbox-container">
-                        <div class="checkbox-group">
-                            <input type="checkbox" id="cash" name="payment-mode" value="cash">
-                            <label for="cash">Cash</label>
-                        </div>
-                        <div class="checkbox-group">
-                            <input type="checkbox" id="cheque" name="payment-mode" value="cheque">
-                            <label for="cheque">Cheque</label>
-                        </div>
-                        <div class="checkbox-group">
-                            <input type="checkbox" id="demand-draf" name="payment-mode" value="demand-draft">
-                            <label for="demand-draf">Demand Draft</label>
-                        </div>
+    <div class="main-container">
+        <div class="main-head">
+            <h3>Workshop Registration</h3>
+            <p>More Actions</p>
+            <div class="arrow-down"></div>
+        </div>
+        <p class="sub-title-top">Register now while seats are available!</p>
+        <form>
+            <div class="form-main">
+                <div class="form-column-1">
+                    <div class="form-group">
+                        <label for="first-name">First Name <span>*</span></label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name <span>*</span></label>
+                        <input type="text" id="last-name" name="last-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company/Institution <span>*</span></label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address <span>*</span></label>
+                        <textarea id="address" name="address" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city">
+                    </div>
+                    <div class="form-group">
+                        <label for="state">State/Province/Region</label>
+                        <select id="state" name="state">
+                            <option value="" selected disabled>-Select-</option>
+                            <option value="state1">State 1</option>
+                            <option value="state2">State 2</option>
+                            <option value="state3">State 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="" selected disabled>-Select-</option>
+                            <option value="country1">Country 1</option>
+                            <option value="country2">Country 2</option>
+                            <option value="country3">Country 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span>*</span></label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="tel" id="phone" name="phone" required>
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="dd">DD/Cheque No.</label>
-                    <input type="text" id="dd" name="dd">
-                </div>
-                <div class="form-group">
-                    <label for="drawn-on">Drawn On (Bank Name)</label>
-                    <input type="text" id="drawn-on" name="drawn-on">
-                </div>
-                <div class="form-group">
-                    <label for="payable-at">Payable At</label>
-                    <input type="text" id="payable-at" name="payable-at">
+                <div class="form-column-2">
+                    <div class="sub-title-form1">
+                        <p>Lunch</p>
+                    </div>
+                    <div class="form-group second-column">
+                        <label for="meal-preference">Meal Preference</label>
+                        <select id="meal-preference" name="meal-preference">
+                            <option value="Vegetarian" selected>Vegetarian</option>
+                            <option value="Seafood">Seafood</option>
+                            <option value="Meat">Meat</option>
+                        </select>
+                    </div>
+                    <div class="sub-title-form2">
+                        <p>Payment Details</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="cash">Payment Mode</label>
+                        <div class="checkbox-container">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="cash" name="payment-mode" value="cash">
+                                <label for="cash">Cash</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="cheque" name="payment-mode" value="cheque">
+                                <label for="cheque">Cheque</label>
+                            </div>
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="demand-draf" name="payment-mode" value="demand-draft">
+                                <label for="demand-draf">Demand Draft</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="dd">DD/Cheque No.</label>
+                        <input type="text" id="dd" name="dd">
+                    </div>
+                    <div class="form-group">
+                        <label for="drawn-on">Drawn On (Bank Name)</label>
+                        <input type="text" id="drawn-on" name="drawn-on">
+                    </div>
+                    <div class="form-group">
+                        <label for="payable-at">Payable At</label>
+                        <input type="text" id="payable-at" name="payable-at">
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="form-end">
-            <button>Submit</button>
-            <button>Reset</button>
-        </div>
-    </form>
+            <div class="form-end">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+        </form>
+    </div>
     <div class="valid-buttons">
         <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fheytoshi.github.io%2Fwap%2Flab4form.html">
             <img class="valid-img" src="./assets/HTML-checker.png" alt="html validator"> </a>

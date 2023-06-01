@@ -4,14 +4,22 @@
     box-sizing: border-box;
 }
 
-header {
+.main-head {
     display: flex;
     align-items: center;
     background-color: #a2cbbc;
     height: 40px;
 }
+.main-head h3 {
+    margin-left: 10px;
+}
 
-body {
+.main-head p {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.main-container {
     border: 2px solid #a2cbbc;
     /* min-height: 100vh; */
 }
@@ -39,15 +47,6 @@ textarea {
 
 .sub-title-form1>p {
     margin-top: 0;
-}
-
-header h3 {
-    margin-left: 10px;
-}
-
-header p {
-    margin-left: 50px;
-    font-size: 15px;
 }
 
 .arrow-down {
@@ -143,5 +142,13 @@ label {
     color: white;
     width: 80px;
     font-weight: 600;
+}
 
+.valid-img {
+    width: 60px;
+}
+
+.valid-buttons {
+    margin-left: 20px;
+    margin-top: 10px;
 }
