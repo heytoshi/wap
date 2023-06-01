@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #a2cbbc;
+    height: 40px;
+}
+
+body {
+    border: 2px solid #a2cbbc;
+    /* min-height: 100vh; */
+}
+
+span {
+    color: red;
+}
+
+.sub-title-top {
+    color: black;
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+.sub-title-form1 p,
+.sub-title-form2 p {
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.sub-title-form1>p {
+    margin-top: 0;
+}
+
+header h3 {
+    margin-left: 10px;
+}
+
+header p {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+    margin-left: 7px;
+}
+
+.form-container {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+label {
+    width: 120px;
+}
+
+.form-column-1,
+.form-column-2 {
+    width: 100%;
+}
+
+
+.form-main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 10px 10px;
+    gap: 80px
+}
+
+.form-group label {
+    font-weight: bold;
+    width: 50%;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 40%;
+}
+
+.checkbox-group>input {
+    width: 25px;
+}
+
+
+.checkbox-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.checkbox-group {
+    width: 100%;
+}
+
+.checkbox-group label {
+    font-weight: 100;
+}
+
+.form-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e3e3;
+    height: 40px;
+    gap: 10px;
+    /* position: absolute;
+    bottom: 0; 
+    right: 0;
+    left: 0; */
+}
+
+.form-end button {
+    background-color: #7aa897;
+    border: none;
+    height: 30px;
+    color: white;
+    width: 80px;
+    font-weight: 600;
+
+}
