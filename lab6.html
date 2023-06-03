@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/lab6.js"></script>
+    <title>Lab5</title>
+</head>
+<body>
+    <div>
+        <p>Please check the js file "/js/lab6.js" for the function implementation.</p>
+        <strong>Results: </strong>
+    </div>
+    <br/> 
+    <div id="results"></div> 
+
+    <script>
+
+        const runThree = () => {
+            printNumberEverySec(1, 20);
+        }
+
+        document.getElementById("results").innerHTML += "<p>Exercise One:</p>";
+        document.getElementById("results").innerHTML += "<strong>Result: </strong>";
+        document.getElementById("results").innerHTML += "<p> undefined 30</p>";
+        document.getElementById("results").innerHTML += "<p> 10 30 </p>";
+        document.getElementById("results").innerHTML += "<br>";
+
+        document.getElementById("results").innerHTML += "<p>Exercise Two:</p>";
+        document.getElementById("results").innerHTML += "<strong>Result: </strong>";
+        document.getElementById("results").innerHTML += "<p> 3 undefined</p>";
+        document.getElementById("results").innerHTML += "<p> 10 undefined </p>";
+        document.getElementById("results").innerHTML += "<p> 10 </p>";
+        document.getElementById("results").innerHTML += "<br>";
+
+        document.getElementById("results").innerHTML += "<p>Exercise Three:</p>";
+        document.getElementById("results").innerHTML += "<strong>Result: </strong>";
+        document.getElementById("results").innerHTML += "<p> Check console or run '/js.lab6.js' </p>";
+        document.getElementById("results").innerHTML += "<button onClick='runThree()'>RUN</button>";
+
+      </script>
+</body>
+</html>
