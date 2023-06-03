@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/lab5.js"></script>
+    <title>Lab5</title>
+</head>
+<body>
+    <div>
+        <p>Please check the js file "/js/lab5.js" for the function implementation.</p>
+        <strong>Results: </strong>
+    </div>
+    <br/> 
+    <div id="results"></div> 
+
+    <script>
+        const n = [88, 99, 11, 22, 44, 55];
+        const s = ['test1b', 'test2b', 'test1a', 'test2a', 'test3c'];
+  
+        const exerciseOneResult = exerciseOne(n);
+        const exerciseTwoResult = exerciseTwo(s);
+
+        document.getElementById("results").innerHTML += "<p>Exercise One:</p>";
+        document.getElementById("results").innerHTML += "<p>[88, 99, 11, 22, 44, 55]</p>";
+        document.getElementById("results").innerHTML += "<p>Result: " + exerciseOneResult + "</p>";
+        document.getElementById("results").innerHTML += "<br>";
+
+        document.getElementById("results").innerHTML += "<p>Exercise Two:</p>";
+        document.getElementById("results").innerHTML += "<p>['test1b', 'test2b', 'test1a', 'test2a', 'test3c']</p>";
+        document.getElementById("results").innerHTML += "<p>Result: " + exerciseTwoResult + "</p>";
+      </script>
+</body>
+</html>
