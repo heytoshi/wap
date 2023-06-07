@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/lab7.js"></script>
+    <title>Lab7</title>
+</head>
+<body>
+    <div>
+        <p>Please check the js file "/js/lab7.js" for the code.</p>
+        <strong>Solution: </strong>
+    </div>
+    <br/> 
+    <div id="results"></div> 
+
+    <script>
+
+        document.getElementById("results").innerHTML += "<p>Exercise One:</p>";
+        document.getElementById("results").innerHTML += 
+        "<div>" + 
+            "<p>askPassword(user.loginOk.bind(user), user.loginFail.bind(user));</p>" +
+            "<p>askPassword(() => user.loginOk.call(user),() =>  user.loginFail.call(user));</p>" +
+            "<p>askPassword(() => user.loginOk.apply(user), () => user.loginFail.apply(user));</p>"
+            + "</div>";
+        
+        document.getElementById("results").innerHTML += "<br>";
+        document.getElementById("results").innerHTML += "<p>Exercise Two:</p>";
+        document.getElementById("results").innerHTML += 
+        "<div>" + 
+            "<p>this.students.forEach(function (student) {</p>" +
+            '<p>&nbsp&nbsp&nbsp console.log(this.title + ":" + student);</p>' +
+            "<p>}.bind(this));</p>"
+            + "</div>";
+      </script>
+</body>
+</html>
